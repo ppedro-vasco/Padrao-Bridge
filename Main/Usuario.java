@@ -8,7 +8,7 @@ public abstract class Usuario {
     public Usuario(float nivelSeguranca){
         this.nivelSeguranca = nivelSeguranca;
     }
-    public void setAutorizacao(Autenticador autenticador){
+    public void setAutenticacao(Autenticador autenticador){
         this.autenticador = autenticador;
     }
     public void setNivelSeguranca(float nivelSeguranca){
